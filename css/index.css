@@ -1,5 +1,62 @@
 @import "./reset.css";
 @import "./media.css";
 
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+  .text-line {
+    width: 640px;
+    text-align: center;
+    a {
+      background: #f0e71433;
+      color: #101c26;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 30px;
+    }
+    h1 {
+      font-size: 50px;
+      line-height: 70px;
+      margin: 15px;
+    }
+    p {
+      font-size: 21px;
+      font-weight: 300;
+      line-height: 32px;
+      color: #555c68;
+    }
+  }
+  .vacancy {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 40px 0;
+    .product {
+        box-shadow: #101c2626 0 3px 2px 2px;
+      background: white;
+      width: 300px;
+      height: 240px;
+      border-radius: 10px;
+      padding: 20px;
+      transition: 1s;
 
-  
+      h4 {
+        font-size: 28px;
+        font-weight: 500;
+        margin: 18px 0;
+      }
+      p {
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 32px;
+        color: #555c68;
+      }
+    }
+    .product:hover {
+      box-shadow: #101c2626 0 6px 7px 9px;
+    }
+  }
+}
