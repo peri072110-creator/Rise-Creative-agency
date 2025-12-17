@@ -2,6 +2,7 @@
 @import "./media.css";
 @import "./header.css";
 
+<<<<<<< HEAD
 .service {
   display: flex;
   flex-direction: column;
@@ -43,25 +44,31 @@
       border-radius: 10px;
       padding: 20px;
       transition: 1s;
+=======
+>>>>>>> 8caa347 (distributed across folders)
 
-      h4 {
-        font-size: 28px;
-        font-weight: 500;
-        margin: 18px 0;
-      }
-      p {
-        font-size: 21px;
-        font-weight: 300;
-        line-height: 32px;
-        color: #555c68;
-      }
-    }
-    .product:hover {
-      box-shadow: #101c2626 0 6px 7px 9px;
-    }
+ 
+
+
+
+
+
+
+
+
+
+.ionka {
+  .ty {
+    font-size: 40px;
+    color: gray;
+  }
+  .ti {
+    font-size: 40px;
+    color: #447af7;
   }
 }
 
+<<<<<<< HEAD
 #testimonial {
   margin: 40px 0;
 }
@@ -227,6 +234,20 @@
 
 #foot {
   background: #101c26;
+=======
+
+
+
+
+
+
+
+
+
+
+#foot{
+  background: #101C26;
+>>>>>>> 8caa347 (distributed across folders)
   height: 400px;
 
   .hr {
@@ -236,6 +257,7 @@
     margin: 40px 0 0 0;
   }
 }
+<<<<<<< HEAD
 
 .foot {
   padding: 60px 50px;
@@ -330,3 +352,5 @@
     }
   }
 }
+=======
+>>>>>>> 8caa347 (distributed across folders)
