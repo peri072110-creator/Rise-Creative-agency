@@ -1,0 +1,65 @@
+.use {
+  .use-he {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .he-a {
+      width: 500px;
+      a {
+        background: #f0e71433;
+        color: #101c26;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 30px;
+      }
+      h1 {
+        font-size: 44px;
+      }
+    }
+    .use-ion {
+      ion-icon {
+        font-size: 50px;
+      }
+    }
+  }
+  .use-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    .use-read {
+      width: 510px;
+      .use-hotel {
+        img {
+          width: 510px;
+          height: 600px;
+        }
+        .stupid-img {
+          height: 600px;
+          width: 300px;
+        }
+        .hotel-infa {
+          h1 {
+            font-size: 34px;
+          }
+          p {
+            color: #555c68;
+            font-size: 20px;
+            margin: 10px 0;
+          }
+        }
+        .hotel-infa1 {
+          h1 {
+            font-size: 34px;
+          }
+          p {
+            color: #555c68;
+            font-size: 20px;
+            margin: 10px 0;
+            width: 300px;
+          }
+        }
+      }
+    }
+  }
+}
