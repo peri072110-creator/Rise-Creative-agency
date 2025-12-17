@@ -20,34 +20,38 @@
 
 .teg {
   display: flex;
-  gap: 30px;
+  gap: 35px;
 }
 
 .teg a {
   color: white;
-  font-size: 14px;
+  font-size: 19px;
   font-weight: 400;
   transition: 0.3s;
+  border-bottom: 1px solid  #101c26;
 }
 
 .teg a:hover {
-  color: #00aaff;
+  color:  gray;
+   border-bottom:1px solid gray;
 }
 
 .btn{
- 
+ display: flex;
+ gap: 20px;
     .w{
-        width: 138px;
+        width: 150px;
         height: 50px;
         border-radius: 30px;
         background: #F0E714;
         border: none;
-        color: white;
-        transition: 1s;
+        color:  black;
+        transition: 0.6s;
     }
     .w:hover{
-        background: white;
-        color: black;
+        background: rgba(255, 255, 255, 0.005);
+        color:   #CECECE;
+        border: 1px solid  #CECECE;
 
     }
 
