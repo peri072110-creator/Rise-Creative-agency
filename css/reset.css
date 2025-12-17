@@ -5,8 +5,17 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
 body {
   background: #eeeded;
+  min-height: 100vh;
+  line-height: 1.5;
+  color: #000;
+  text-rendering: optimizeSpeed;
 }
 
 .container {
@@ -16,3 +25,45 @@ body {
   padding: 0 20px;
 }
 
+a {
+  text-decoration: none;
+  color: #101c26;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}

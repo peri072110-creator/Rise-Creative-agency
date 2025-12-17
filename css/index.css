@@ -1,6 +1,10 @@
 @import "./reset.css";
 @import "./media.css";
 @import "./header.css";
+@import "./service.css";
+@import "./testimonial.css";
+@import "./contact.css";
+@import "./footer.css";
 @import "./hero.css";
 
 .service {
