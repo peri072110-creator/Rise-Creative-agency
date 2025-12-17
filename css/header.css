@@ -1,0 +1,54 @@
+#Time {
+  background-color: #101c26;
+}
+
+#header {
+  background-color: #101c26;
+  padding: 20px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img img {
+  width: 120px;
+  height: auto;
+}
+
+.teg {
+  display: flex;
+  gap: 30px;
+}
+
+.teg a {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.teg a:hover {
+  color: #00aaff;
+}
+
+.btn{
+ 
+    .w{
+        width: 138px;
+        height: 50px;
+        border-radius: 30px;
+        background: #F0E714;
+        border: none;
+        color: white;
+        transition: 1s;
+    }
+    .w:hover{
+        background: white;
+        color: black;
+
+    }
+
+}
