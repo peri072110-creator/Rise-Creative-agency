@@ -6,12 +6,19 @@
   .text-line {
     width: 640px;
     text-align: center;
+     animation:  service 2s;
+
     a {
       background: #f0e71433;
       color: #101c26;
       padding: 10px 20px;
       font-size: 16px;
       border-radius: 30px;
+       display: inline-block;
+      transition: transform 0.3s;
+    }
+    a:hover {
+      transform: scale(1.05);
     }
     h1 {
       font-size: 50px;
@@ -38,9 +45,11 @@
       height: 240px;
       border-radius: 10px;
       padding: 20px;
-      transition: 1s;
+      transition:  1s;
       margin: 20px 0;
-
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  animation: scaleIn 0.6s ease-out backwards;
       h4 {
         font-size: 28px;
         font-weight: 500;
@@ -53,8 +62,19 @@
         color: #555c68;
       }
     }
+     .product:nth-child(1) { animation-delay: 0.1s; }
+    .product:nth-child(2) { animation-delay: 0.2s; }
+    .product:nth-child(3) { animation-delay: 0.3s; }
+    .product:nth-child(4) { animation-delay: 0.4s; }
+    .product:nth-child(5) { animation-delay: 0.5s; }
+    .product:nth-child(6) { animation-delay: 0.6s; }
+    .product:nth-child(7) { animation-delay: 0.7s; }
+    .product:nth-child(8) { animation-delay: 0.8s; }
     .product:hover {
       box-shadow: #101c2626 0 6px 7px 9px;
     }
   }
 }
+
+  
+ 

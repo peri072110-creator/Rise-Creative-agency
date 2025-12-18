@@ -1,0 +1,54 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 150px 0 0 0;
+  .about-img {
+    animation: ab-img 2s;
+    .rectan {
+      position: relative;
+      z-index: 2;
+    }
+    .mask {
+      position: relative;
+      z-index: 1;
+      bottom: 125px;
+      right: 40px;
+    }
+  }
+  .about-text {
+    margin-bottom: 150px;
+    margin-right: 10px;
+    width: 610px;
+    position: relative;
+    left: -100%;
+    animation: slideIn 2s forwards;
+    a {
+      background: #f0e71433;
+      color: #101c26;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 30px;
+    }
+    h1 {
+      font-size: 48px;
+      margin: 30px 0;
+      font-weight: 600;
+    }
+    p {
+      font-size: 20px;
+      color: #555c68;
+      width: 450px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      width: 160px;
+      height: 46px;
+      border-radius: 30px;
+      background: #24272e;
+      color: #f0e714;
+      font-size: 15px;
+    }
+  }
+}
