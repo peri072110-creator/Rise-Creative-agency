@@ -26,12 +26,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
     .use-read {
       width: 510px;
       .use-hotel {
         img {
-          width: 510px;
+          width: 550px;
           height: 600px;
         }
         .stupid-img {
