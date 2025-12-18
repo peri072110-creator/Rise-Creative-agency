@@ -41,13 +41,21 @@
 }
 
 .igmt {
-  margin-right: -100;
-  width: 180;
+  margin-right: -125px;
+  width: 800;
   height: auto;
-  margin-right: 430;
-
   position: relative;
   animation: tombop 1s forwards;
+}
+
+.card {
+  position: absolute;
+  left:45%;
+  width: 202;
+  height: 235px;
+  top: 395px;
+
+  animation: weias 2s ease-in-out forwards;
 }
 
 .rex {
@@ -68,13 +76,15 @@
 }
 
 .but {
+  display: flex;
+  gap: 10px;
   position: relative;
   width: 300px;
   margin-top: -10px;
   top: 20;
   right: 25;
   .i {
-    width: 130px;
+    width: 150px;
     height: 50px;
     font-size: 18px;
     color: white;
@@ -83,20 +93,26 @@
     position: absolute;
     left: 22px;
     color: black;
+    ion-icon {
+      width: 35;
+      height: 15.429750442504883;
+    }
+    
   }
   .o {
     width: 190px;
     height: 50px;
     font-size: 18px;
-    margin-left: 130px;
+    margin-left: 180px;
     margin-bottom: 50px;
-    padding-left: 25px;
+    padding: 0 25px ;
     color: rgba(35, 31, 31, 0.575);
     background: white;
     border-radius: 0px 30px 30px 0px;
     background: none;
     color: white;
     border: none;
+
   }
 }
 
@@ -137,4 +153,17 @@
   to {
     right: 0px;
   }
+}
+
+
+@keyframes weias {
+    from {
+        transform: scale(0);
+        opacity: 0.7;
+    }
+
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
 }

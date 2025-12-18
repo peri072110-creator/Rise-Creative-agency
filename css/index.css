@@ -5,8 +5,10 @@
 @import "./testimonial.css";
 @import "./contact.css";
 @import "./footer.css";
-<<<<<<< HEAD
 @import "./hero.css";
+@import "./use.css";
+
+
 
 .service {
   display: flex;
@@ -336,6 +338,3 @@
     }
   }
 }
-=======
-@import "./use.css"
->>>>>>> a3ba0c68e68cbc494fdb3bf60b44817bc29e1c23
