@@ -17,6 +17,9 @@
         justify-content: space-between;
         img {
           width: 90px;
+          margin-bottom: 25px;
+  animation: float 3s ease-in-out infinite;
+
         }
         gap: 5px;
         h4 {
@@ -85,7 +88,7 @@
         line-height: 35px;
         font-size: 16px;
         font-weight: 200;
-        transition: 0.5s;
+        transition: 0.2s;
       }
       a:hover{
         color: #f0e714;

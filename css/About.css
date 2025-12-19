@@ -49,6 +49,7 @@
       background: #24272e;
       color: #f0e714;
       font-size: 15px;
-    }
+      text-shadow: #f0e714 6px 2px 7px 9px;
+    } 
   }
 }

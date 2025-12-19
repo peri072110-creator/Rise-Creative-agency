@@ -20,7 +20,7 @@
     h1 {
       font-size: 50px;
       line-height: 70px;
-      margin: 10px;
+      margin: 5px;
     }
     p {
       font-size: 21px;
@@ -63,7 +63,7 @@
         font-size: 12px;
       }
       .q {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 500;
         font-family: Inter, sans-serif;
         line-height: 30px;
