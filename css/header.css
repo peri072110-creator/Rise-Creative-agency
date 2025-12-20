@@ -1,36 +1,38 @@
-#Time {
-  background-color: #101c26;
-}
-
 #header {
-  background-color: #101c26;
+    min-width: 100vh;
+  background-color: #101c26 ;
+  background-size: initial;
   padding: 20px 0;
   
 }
 
 .header {
-   
+    position: relative;
+  z-index: 3;
+  animation: header 1s forwards;
     height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
   z-index: 5;
+  
 
-}
-
-.img img {
-  width: 120px;
-  height: auto;
 }
 .img{
+  width: 120px;
     
   animation: float 3s ease-in-out infinite;
 
 }
+.img img {
+  width: 120px;
+  height: auto;
+}
+
 .teg {
   display: flex;
-  gap: 40px;
+  gap: 60px;
 }
 
 .teg a {
