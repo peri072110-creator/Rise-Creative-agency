@@ -85,6 +85,9 @@
   height: auto;
   position: relative;
   animation: tombop 1s forwards;
+  img{
+    width: 750px;
+  }
 }
 
 .card {
