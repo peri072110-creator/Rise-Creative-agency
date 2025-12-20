@@ -8,15 +8,20 @@
     gap: 30px;
     .cont-text {
       margin: 30px 0;
-
       width: 640px;
+      animation: cont 2s ease-in-out forwards;;
       a {
-        background: #f0e71433;
-        color: #101c26;
-        padding: 10px 20px;
-        font-size: 16px;
-        border-radius: 30px;
-      }
+      background: #f0e71433;
+      color: #101c26;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 30px;
+      display: inline-block;
+      transition: transform 0.3s;
+    }
+    a:hover {
+      transform: scale(1.05);
+    }
       h1 {
         font-size: 50px;
         line-height: 70px;
@@ -44,8 +49,7 @@
     }
 
     .sign {
-  animation: weias 2s ease-in-out forwards;
-        
+      animation: weias 2s ease-in-out forwards;
       width: 620px;
       height: 500px;
       display: flex;
@@ -73,6 +77,9 @@
         border: none;
         background: #f0e714;
         transition: 1s;
+      }
+      button-fill::before {
+        width: 100%;
       }
       button:hover {
         background: rgb(11, 11, 11);

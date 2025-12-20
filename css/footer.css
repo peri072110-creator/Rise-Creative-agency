@@ -1,6 +1,7 @@
 
 #foot{
     background: #101C26;
+    animation: fooot 3s ease-in-out infinite;
 }
 
 .foot {

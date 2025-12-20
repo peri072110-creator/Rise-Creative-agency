@@ -19,6 +19,7 @@
   .about-text {
     margin-bottom: 150px;
     margin-right: 10px;
+    z-index: 1;
     width: 610px;
     position: relative;
     left: -100%;
@@ -29,6 +30,11 @@
       padding: 10px 20px;
       font-size: 16px;
       border-radius: 30px;
+      display: inline-block;
+      transition: transform 0.3s;
+    }
+    a:hover {
+      transform: scale(1.05);
     }
     h1 {
       font-size: 48px;
@@ -41,7 +47,6 @@
       width: 450px;
       margin-bottom: 20px;
     }
-
     button {
       width: 160px;
       height: 46px;
@@ -50,6 +55,15 @@
       color: #f0e714;
       font-size: 15px;
       text-shadow: #f0e714 6px 2px 7px 9px;
+      transition: 0.7s;
+      border-radius: 2px solid transparent;
+      cursor: pointer;
+      border: none;
+      }
+    button:hover{
+      color: black;
+      background: #F0E714;
+    }
     } 
   }
-}
+

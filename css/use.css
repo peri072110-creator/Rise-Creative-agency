@@ -4,27 +4,31 @@
     width: 100%;
 }
 .use {
-
   .use-he {
     display: flex;
     justify-content: space-between;
     align-items: center;
     .he-a {
-  animation: weias 2s ease-in-out forwards;
-
+      animation: weias 2s ease-in-out forwards;
       width: 500px;
       a {
-        background: #f0e71433;
-        color: #101c26;
-        padding: 10px 20px;
-        font-size: 16px;
-        border-radius: 30px;
+      background: #f0e71433;
+      color: #101c26;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 30px;
+      display: inline-block;
+      transition: transform 0.3s;
+      }
+      a:hover {
+      transform: scale(1.05);
       }
       h1 {
         font-size: 44px;
       }
     }
     .use-ion {
+      animation: uses 2s ease-in-out forwards;
       ion-icon {
         font-size: 50px;
       }
