@@ -19,12 +19,7 @@
   .about-text {
     margin-bottom: 150px;
     margin-right: 10px;
-<<<<<<< HEAD
-    z-index: 1;
-    width: 610px;
-=======
-    
->>>>>>> b47b485b90825822810b18b35f29714bba209534
+ 
     position: relative;
     animation: slideIn 2s forwards;
     a {
