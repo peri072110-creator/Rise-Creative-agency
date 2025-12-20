@@ -5,7 +5,7 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-
+ 
 html {
   font-size: 16px;
   scroll-behavior: smooth;
@@ -34,6 +34,14 @@ a {
 ul,
 ol {
   list-style: none;
+}
+.about-text,
+.choose-text,
+.sign,
+.text-line,
+.first {
+  max-width: 100%;
+  width: 100%;
 }
 
 img,

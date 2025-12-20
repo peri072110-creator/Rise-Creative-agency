@@ -1,12 +1,9 @@
- 
-
 #url {
   background-color: #101c26;
   position: relative;
   height: 90vh;
   padding: 40px 0;
-    min-width: 100vh;
-
+  max-width: 100%;
 }
 .url {
   position: relative;
@@ -28,24 +25,20 @@
   gap: 10px;
   h1 {
     font-weight: 700;
-    font-size:  clamp(35px, 5vw, 66px);
+    font-size: clamp(35px, 5vw, 66px);
     line-height: 66px;
     color: white;
-    
-    
-  
   }
   p {
     font-weight: 500;
     line-height: 32px;
     color: white;
-    font-size:  clamp(8px, 5vw, 20px);
-
+    font-size: clamp(8px, 5vw, 20px);
   }
   h3 {
     font-weight: 500;
     line-height: 28px;
-    font-size:  clamp(8px, 5vw, 20px);
+    font-size: clamp(8px, 5vw, 20px);
 
     color: white;
   }
@@ -57,10 +50,6 @@
 
   animation: bad-boy 0.8s ease-out forwards;
 }
-
-
-
-
 
 .starh {
   width: 35px;
@@ -80,13 +69,14 @@
 }
 
 .igmt {
-  margin-right: -125px;
-  width: 800;
-  height: auto;
+   
+  height: auto;margin-right: 0;
+  max-width: 100%;
   position: relative;
   animation: tombop 1s forwards;
-  img{
-    width: 750px;
+  img {
+     max-width: 100%;
+  height: auto;
   }
 }
 
@@ -98,10 +88,7 @@
   top: 280px;
 
   animation: weias 2s ease-in-out forwards;
-
 }
-
-
 
 .but {
   display: flex;
@@ -127,13 +114,12 @@
     }
   }
   .i:hover {
-     
-     width: 150px;
-     height: 50px;
+    width: 150px;
+    height: 50px;
     margin-left: 0px;
     margin-bottom: 0px;
     color: white;
-     
+
     background: white;
     border-radius: 0px 30px 30px 0px;
     background: none;
@@ -147,22 +133,21 @@
     margin-bottom: 50px;
     color: rgba(245, 239, 239, 0.935);
     background: white;
-    border-radius: 30px ;
+    border-radius: 30px;
     background: none;
     border: none;
     transition: 0.5s;
+    ion-icon {
+      font-size: 20px;
+    }
   }
   .o:hover {
     border-radius: 30px;
     background-color: #f0e714;
     border-radius: 30px;
     color: black;
-    
-    
   }
 }
-
-
 
 .icons {
   display: flex;
@@ -170,12 +155,12 @@
   align-items: center;
   margin-top: 70px;
   height: 100px;
-  
-    img{
-      width: 160px;
-    }
-   img:hover{
-     filter: invert(3%) sepia(70%) saturate(1000%) hue-rotate(0deg) brightness(100%) contrast(100%);
- 
-   }
+
+  img {
+    width: 160px;
+  }
+  img:hover {
+    filter: invert(3%) sepia(70%) saturate(1000%) hue-rotate(0deg)
+      brightness(100%) contrast(100%);
+  }
 }

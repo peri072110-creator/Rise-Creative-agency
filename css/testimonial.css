@@ -42,13 +42,14 @@
       align-items: center;
       text-align: center;
       gap: 20px;
-      width: 560px;
       height: 400px;
       background: white;
       border-radius: 10px;
       padding: 24px;
       transition: 1s;
       flex-shrink: 0;
+      max-width: 100%;
+      width: 580px;
       img {
         width: 60px;
       }
