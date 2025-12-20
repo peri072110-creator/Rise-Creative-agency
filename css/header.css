@@ -1,36 +1,38 @@
-#Time {
-  background-color: #101c26;
-}
-
 #header {
-  background-color: #101c26;
+    max-width: 100%;
+  background-color: #101c26 ;
+  background-size: inherit;
   padding: 20px 0;
   
 }
 
 .header {
-   
+    position: relative;
+  z-index: 3;
+  animation: header 1s forwards;
     height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
   z-index: 5;
+  
 
-}
-
-.img img {
-  width: 120px;
-  height: auto;
 }
 .img{
+  width: 120px;
     
   animation: float 3s ease-in-out infinite;
 
 }
+.img img {
+  width: 120px;
+  height: auto;
+}
+
 .teg {
   display: flex;
-  gap: 40px;
+  gap: 60px;
 }
 
 .teg a {
@@ -44,6 +46,24 @@
 .teg a:hover {
   color:   #F0E714;
    border-bottom:1px solid gray;
+}
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.burger span {
+  width: 25px;
+  height: 3px;
+  background: #eee9e9;
+}
+.switch{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 80px;
 }
 
 .btn{

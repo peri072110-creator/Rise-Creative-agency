@@ -19,8 +19,13 @@
   .choose-text {
     margin-bottom: 150px;
     margin-right: 100px;
+<<<<<<< HEAD
     width: 610px;
     position: relative;
+=======
+ 
+        position: relative;
+>>>>>>> b47b485b90825822810b18b35f29714bba209534
     left: -100%;
     animation: slideIn 2s forwards;
     a {
@@ -57,7 +62,7 @@
     .text-t {
       display: flex;
       align-items: center;
-
+      justify-content: center;
       gap: 20px;
       margin-top: 20px;
 

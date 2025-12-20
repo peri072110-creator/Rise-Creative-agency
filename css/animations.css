@@ -1,4 +1,3 @@
-
 @keyframes header {
   from {
     top: -100px;
@@ -29,29 +28,32 @@
   }
 }
 
-
 @keyframes weias {
-    from {
-        transform: scale(0);
-        opacity: 0.7;
-    }
+  from {
+    transform: scale(0);
+    opacity: 0.7;
+  }
 
-    to{
-        transform: scale(1);
-        opacity: 1;
-    }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
-
-
-
-
 
 @keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(20px); }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b47b485b90825822810b18b35f29714bba209534
 @keyframes float {
   0% {
     transform: translateY(0);
@@ -63,28 +65,35 @@
     transform: translateY(0);
   }
 }
- 
 
 @keyframes spin {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-
 @keyframes koko {
-    from{ color:  #f0e714;
-    }
-    to{
-        color: #f0e9149d;
-    }
+  from {
+    color: #f0e714;
+  }
+  to {
+    color: #f0e9149d;
+  }
 }
 
 @keyframes neon {
-  0%   { background-position: 0% 0%; }
-  100% { background-position: 100% 0%; }
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
 }
 
-@keyframes  ab-img{
+@keyframes ab-img {
   from {
     transform: scale(0);
     opacity: 0;
@@ -97,12 +106,20 @@
 
 @keyframes slideIn {
   to {
+<<<<<<< HEAD
     left: 0;              
   }   
 }
 
 
 @keyframes  service{
+=======
+    left: 0;
+  }
+}
+
+@keyframes service {
+>>>>>>> b47b485b90825822810b18b35f29714bba209534
   from {
     transform: scale(0);
     opacity: 0;
@@ -112,7 +129,6 @@
     opacity: 1;
   }
 }
-
 
 @keyframes fadeSlideUp {
   from {
@@ -135,6 +151,7 @@
     transform: scale(1);
   }
 }
+<<<<<<< HEAD
 @keyframes fooot {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(20px); }
@@ -169,4 +186,20 @@
         transform: scale(1);
         opacity: 1;
     }
+=======
+
+ @keyframes slideUp {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+footer {
+  animation: slideUp 0.8s ease forwards;
+>>>>>>> b47b485b90825822810b18b35f29714bba209534
 }

@@ -49,7 +49,12 @@
     }
 
     .sign {
+<<<<<<< HEAD
       animation: weias 2s ease-in-out forwards;
+=======
+  animation: weias 2s ease-in-out forwards;
+         max-width: 100%;
+>>>>>>> b47b485b90825822810b18b35f29714bba209534
       width: 620px;
       height: 500px;
       display: flex;

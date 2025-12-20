@@ -1,27 +1,13 @@
-.textt {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-  h1 {
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 66px;
-    color: white;
-  
-  }
-  p {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 32px;
-    color: white;
-  }
-  h3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 28px;
-    color: white;
-  }
+#url {
+  background-color: #101c26;
+  position: relative;
+  height: 90vh;
+  padding: 40px 0;
+  max-width: 100%;
+}
+.url {
+  position: relative;
+  z-index: 3;
 }
 .back {
   position: absolute;
@@ -32,21 +18,30 @@
   width: 100%;
   height: 82vw;
 }
-.header {
-  position: relative;
-  z-index: 3;
-  animation: header 1s forwards;
-}
+.textt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  h1 {
+    font-weight: 700;
+    font-size: clamp(35px, 5vw, 66px);
+    line-height: 66px;
+    color: white;
+  }
+  p {
+    font-weight: 500;
+    line-height: 32px;
+    color: white;
+    font-size: clamp(8px, 5vw, 20px);
+  }
+  h3 {
+    font-weight: 500;
+    line-height: 28px;
+    font-size: clamp(8px, 5vw, 20px);
 
-#url {
-  background-color: #101c26;
-  position: relative;
-  height: 87vh;
-  padding: 60px 0;
-}
-.url {
-  position: relative;
-  z-index: 3;
+    color: white;
+  }
 }
 .toys {
   display: flex;
@@ -55,6 +50,7 @@
 
   animation: bad-boy 0.8s ease-out forwards;
 }
+
 .starh {
   width: 35px;
   position: absolute;
@@ -62,25 +58,6 @@
   top: 30%;
   animation: spin 2s linear infinite;
 }
-.igmt {
-  margin-right: -125px;
-  width: 800;
-  height: auto;
-  position: relative;
-  animation: tombop 1s forwards;
-}
-
-.card {
-  position: absolute;
-  left: 42%;
-  width: 202;
-  height: 235px;
-  top: 280px;
-
-  animation: weias 2s ease-in-out forwards;
-  
-}
-
 .rex {
   display: flex;
   justify-content: space-between;
@@ -91,17 +68,26 @@
   }
 }
 
-.icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 70px;
-  height: 100px;
+.igmt {
+   
+  height: auto;margin-right: 0;
+  max-width: 100%;
+  position: relative;
+  animation: tombop 1s forwards;
+  img {
+     max-width: 100%;
+  height: auto;
+  }
+}
 
-   img:hover{
-     filter: invert(3%) sepia(70%) saturate(1000%) hue-rotate(0deg) brightness(100%) contrast(100%);
+.card {
+  position: absolute;
+  left: 42%;
+  width: 202;
+  height: 235px;
+  top: 280px;
 
-   }
+  animation: weias 2s ease-in-out forwards;
 }
 
 .but {
@@ -116,7 +102,6 @@
     width: 150px;
     height: 50px;
     font-size: 18px;
-    color: white;
     background: #f0e714;
     border-radius: 30px;
     position: absolute;
@@ -129,16 +114,15 @@
     }
   }
   .i:hover {
-    width: 190px;
+    width: 150px;
     height: 50px;
-    font-size: 16px;
     margin-left: 0px;
     margin-bottom: 0px;
-    color: rgba(35, 31, 31, 0.575);
+    color: white;
+
     background: white;
     border-radius: 0px 30px 30px 0px;
     background: none;
-    color: white;
     border: none;
   }
   .o {
@@ -147,22 +131,36 @@
     font-size: 16px;
     margin-left: 180px;
     margin-bottom: 50px;
-    color: rgba(35, 31, 31, 0.575);
+    color: rgba(245, 239, 239, 0.935);
     background: white;
-    border-radius: 0px 30px 30px 0px;
+    border-radius: 30px;
     background: none;
-    color: white;
     border: none;
     transition: 0.5s;
+    ion-icon {
+      font-size: 20px;
+    }
   }
   .o:hover {
-    width: 150;
-    height: 50;
+    border-radius: 30px;
     background-color: #f0e714;
     border-radius: 30px;
-    border: none;
-    color: #101c26;
-    margin-left: 180px;
-    margin-bottom: 50px;
+    color: black;
+  }
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  height: 100px;
+
+  img {
+    width: 160px;
+  }
+  img:hover {
+    filter: invert(3%) sepia(70%) saturate(1000%) hue-rotate(0deg)
+      brightness(100%) contrast(100%);
   }
 }
